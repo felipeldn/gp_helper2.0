@@ -1,0 +1,91 @@
+.Header {
+    height: 54px;
+    background: #828282;
+    opacity: 0.6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 0 0.5%;
+    top: 0.5%;
+    position: fixed;
+    width: 99%;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+.account-links {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.signup-in-icon {
+    background-color: #C4C4C4;
+    height: 35px;
+    border-radius: 25px;
+}
+
+.signout-icon {
+    background-color: #C4C4C4;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signout-icon:hover {
+    background-color: white;
+}
+
+.nav-container {
+    align-items: center;
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin: 0 30px
+}
+
+.nav-links p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0 10px;
+}
+
+.link-divider {
+    margin: 0;
+    border: 0.5px solid #FFFFFF;
+    margin-right: 8px;
+}
+
+.nav-divider {
+    margin: 0;
+    margin-right: 20px;
+    border: 0.5px solid #C4C4C4;
+}
+
+.widget-menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.widget-menu-icon {
+    background-color: #C4C4C4;
+    height: 35px;
+    margin: 0px;
+    margin-right: 25px;
+    border-radius: 5px;
+    flex-direction: row;
+}
+
+.clinic-list-link:hover {
+    text-decoration: underline;
+}
+
+.clinic-list-link {
+    font-weight: lighter;
+    cursor: pointer;
+}
